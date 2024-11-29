@@ -139,7 +139,7 @@ form.addEventListener('submit', (event) => {
 
 
 
-//Mostrar Senha
+// Mostrar/Ocultar Senha 
 const campoSenha = document.querySelector("#password"); // Ajustado para corresponder ao ID no HTML
 const botaoMostrarSenha = document.querySelector("#botaoMostrarSenha");
 const legenda = document.querySelector(".legenda");
