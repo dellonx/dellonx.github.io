@@ -138,7 +138,8 @@ form.addEventListener('submit', (event) => {
 
 
 
-// Mostrar/Ocultar Senha 
+
+//Mostrar Senha
 const campoSenha = document.querySelector("#password"); // Ajustado para corresponder ao ID no HTML
 const botaoMostrarSenha = document.querySelector("#botaoMostrarSenha");
 const legenda = document.querySelector(".legenda");
@@ -150,7 +151,6 @@ botaoMostrarSenha.addEventListener("click", function () {
 
     legenda.innerHTML = estadoAtualDoCampoDeSenha === "password" ? "Mostrar Senha" : "Ocultar Senha";
 });
-
 
 
 // JS da Galeria
