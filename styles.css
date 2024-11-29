@@ -152,8 +152,8 @@ main.dark-mode {
 .integrantes img {
     margin-top: 10px;
     margin-left: 30px;
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
     border-radius: 30px;
     border: 2px solid rgba(26, 13, 143, 0.863);
     transition: 0.5s ease;
@@ -161,8 +161,8 @@ main.dark-mode {
 }
 
 .integrantes:hover img {
-    width: 330px;
-    height: 430px;
+    width: 230px;
+    height: 330px;
     transition: 0.5s ease;
 }
 
